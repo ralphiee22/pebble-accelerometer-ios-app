@@ -1,0 +1,8 @@
+argv = ['/Users/rafaelaguayo/pebble-dev/PebbleSDK-2.0.2/Pebble/waf', 'configure', 'build']
+environ = {'TERM_SESSION_ID': 'E79BF81C-5E1F-4D51-9E28-4F7139B0451C', 'SSH_AUTH_SOCK': '/tmp/launch-377t5U/Listeners', 'PYTHONPATH': '/Users/rafaelaguayo/pebble-dev/PebbleSDK-current/bin/../.env/lib/python2.7/site-packages', 'VERSIONER_PYTHON_PREFER_32_BIT': 'no', 'TERM_PROGRAM_VERSION': '326', 'SHELL': '/bin/bash', 'LOGNAME': 'rafaelaguayo', 'USER': 'rafaelaguayo', 'HOME': '/Users/rafaelaguayo', 'PATH': '/Users/rafaelaguayo/pebble-dev/PebbleSDK-2.0.2/arm-cs-tools/bin:/Users/rafaelaguayo/pebble-dev/PebbleSDK-current/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin', 'DISPLAY': '/tmp/launch-TseUWo/org.macosforge.xquartz:0', 'TMPDIR': '/var/folders/4b/bky0plg97kggldlhj5b96hy40000gn/T/', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'Apple_PubSub_Socket_Render': '/tmp/launch-rl1ai4/Render', 'VERSIONER_PYTHON_VERSION': '2.7', 'SHLVL': '2', '__CF_USER_TEXT_ENCODING': '0x1F5:0:0', 'PWD': '/Users/rafaelaguayo/Desktop/Pebble/display_acc', '_': '/Users/rafaelaguayo/pebble-dev/PebbleSDK-2.0.2/Pebble/waf', '__CHECKFIX1436934': '1'}
+files = ['/Users/rafaelaguayo/Desktop/Pebble/display_acc/wscript']
+hash = 4672844372416070989
+options = {'files': '', 'jobs': 4, 'verbose': 0, 'nocache': False, 'progress_bar': 0, 'timestamp': None, 'distcheck_args': None, 'top': '', 'destdir': '', 'keep': 0, 'zones': '', 'debug': False, 'prefix': '/usr/local/', 'download': False, 'force': False, 'targets': '', 'out': ''}
+out_dir = '/Users/rafaelaguayo/Desktop/Pebble/display_acc/build'
+run_dir = '/Users/rafaelaguayo/Desktop/Pebble/display_acc'
+top_dir = '/Users/rafaelaguayo/Desktop/Pebble/display_acc'
