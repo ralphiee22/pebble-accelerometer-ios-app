@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1098D6A01A0368280090FC4E /* FileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1098D69F1A0368280090FC4E /* FileTableViewController.m */; };
+		1098D6A61A042A590090FC4E /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1098D6A51A042A590090FC4E /* TextViewController.m */; };
 		10BAB7CE1907260100993020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BAB7CD1907260100993020 /* Foundation.framework */; };
 		10BAB7D01907260100993020 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BAB7CF1907260100993020 /* CoreGraphics.framework */; };
 		10BAB7D21907260100993020 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BAB7D11907260100993020 /* UIKit.framework */; };
@@ -42,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1098D69E1A0368280090FC4E /* FileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTableViewController.h; sourceTree = "<group>"; };
+		1098D69F1A0368280090FC4E /* FileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTableViewController.m; sourceTree = "<group>"; };
+		1098D6A41A042A590090FC4E /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		1098D6A51A042A590090FC4E /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		10BAB7CA1907260100993020 /* DisplayAcc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayAcc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BAB7CD1907260100993020 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		10BAB7CF1907260100993020 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,7 +152,11 @@
 			children = (
 				10BAB7DC1907260100993020 /* AppDelegate.h */,
 				10BAB7DD1907260100993020 /* AppDelegate.m */,
+				1098D69E1A0368280090FC4E /* FileTableViewController.h */,
+				1098D69F1A0368280090FC4E /* FileTableViewController.m */,
 				10BAB7DF1907260100993020 /* Main.storyboard */,
+				1098D6A41A042A590090FC4E /* TextViewController.h */,
+				1098D6A51A042A590090FC4E /* TextViewController.m */,
 				10BAB7E21907260100993020 /* ViewController.h */,
 				10BAB7E31907260100993020 /* ViewController.m */,
 				10BAB7E51907260100993020 /* Images.xcassets */,
@@ -231,6 +241,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Rafael Aguayo";
 				TargetAttributes = {
+					10BAB7C91907260100993020 = {
+						DevelopmentTeam = G956NUTNQ6;
+					};
 					10BAB7EA1907260100993020 = {
 						TestTargetID = 10BAB7C91907260100993020;
 					};
@@ -281,9 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1098D6A61A042A590090FC4E /* TextViewController.m in Sources */,
 				10BAB7E41907260100993020 /* ViewController.m in Sources */,
 				10BAB7DE1907260100993020 /* AppDelegate.m in Sources */,
 				10BAB7DA1907260100993020 /* main.m in Sources */,
+				1098D6A01A0368280090FC4E /* FileTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +513,7 @@
 				10BAB7FE1907260100993020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10BAB7FF1907260100993020 /* Build configuration list for PBXNativeTarget "DisplayAccTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +522,7 @@
 				10BAB8011907260100993020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
